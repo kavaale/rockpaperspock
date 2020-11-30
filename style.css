@@ -1,0 +1,62 @@
+* {
+    background-color: lightblue;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 90%;
+    border: black 4px solid;
+    height: 55em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+figure {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.rules {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+p {
+    font-size: 30px;
+}
+
+.firstPic {
+    margin-left: 4em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#wrapper, h1, p, figure, th, table, figcaption, h2, button{
+    background-color: darkgrey;
+}
+
+table, h2 {
+    margin-left: 2em;
+}
+
+th {
+    text-align: left;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    float: right;
+    display: inline-block;
+    margin-right: 10em;
+}

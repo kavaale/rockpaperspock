@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Lizard Spock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+<h1>Rock Paper Scissors Lizard Spock!</h1>
+<p class="rules">This game is based off of the rules of rock paper scissors with some added complexity.
+Rock beats lizard and scissors, lizard beats spock and paper, spock beats scissors and rock,
+    scissors beats paper and lizard, lastly paper beats rock and spock.</p>
+<figure class="firstPic">
+<img id="lizard" src="img/Lizard.jpg" height="300" width="303"/>
+<figcaption>Lizard</figcaption>
+</figure>
+<figure>
+<img id="rock" src="img/Rock.jpg" height="300" width="245"/>
+    <figcaption>Rock</figcaption>
+</figure>
+<figure>
+<img id="spock" src="img/Spock.jpg" height="300" width="246"/>
+    <figcaption>Spock</figcaption>
+</figure>
+<figure>
+<img id="scissors" src="img/Scissors.jpg" height="300" width="223"/>
+    <figcaption>Scissors</figcaption>
+</figure>
+<figure class="lastPic">
+<img id="paper" src="img/Paper.jpg" height="300" width="262"/>
+    <figcaption>Paper</figcaption>
+</figure>
+<table>
+    <tr>
+        <th>Player Score: </th>
+        <th id="playerOutput">0</th>
+    </tr>
+    <tr>
+        <th>AI Score:</th>
+        <th id="aiOutput">0</th>
+    </tr>
+</table>
+    <button id="reset">Reset Game</button>
+<h2 id="finalOutput"></h2>
+<h2 id="winOutput"></h2>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="stuff.js"></script>
+</html>
